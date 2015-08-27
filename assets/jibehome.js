@@ -1,5 +1,5 @@
 $(window).load(function() {
-
+  smoothScroll();
 })
 
 function smoothScroll() {
