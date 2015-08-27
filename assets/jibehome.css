@@ -1,0 +1,35 @@
+body {font-family: 'proxima-nova'; font-weight: 400; font-style: normal ;  color: #1966a0; margin: 0; box-sizing: border-box;}
+li {  list-style: none;}
+ul {  margin: 0; padding: 0;}
+a { color: inherit; text-decoration: none;}
+img { max-width: 100%; height: auto;}
+p, h1, h2, h3, form { margin: 0;}
+h2 {  margin-bottom: 20px;}
+
+.mid-cont { width: 85%; margin: 0 auto; max-width: 1200px;}
+.section {  display: block; background-color: white; padding: 50px 0;}
+.section.gray { background-color: #f5f6f6;}
+.wave {  background-image: url(../images/wave-bg.jpg); background-repeat: no-repeat; background-size: cover; color: white;}
+.center { text-align: center;}
+
+li { display: inline-block;}
+
+.left, .right { display: inline-block; width: 49%; vertical-align: top;}
+
+input[type="text"] {  border: 3px solid #cdd0d3; border-radius: 10px; padding: 15px 10px; min-width: 250px; vertical-align: top;}
+input[type="submit"] {  background-color: #e84824; background-image: url(../images/submit-arrow.png);; background-repeat: no-repeat;background-position: 50% 50%; height: 40px; -webkit-appearance: none; appearance: none; -moz-appearance: none; width: 52px; border: 0; border-radius: 10px; background-size: 30px; vertical-align: top;}
+
+.icons {  display: table;}
+.icon { display: table-cell; width: 30%; padding: 20px;}
+
+#advantages { background-image: url(../images/desktop-mockup.jpg); background-repeat: no-repeat;background-position: 100% 50%; background-size: 49%; padding: 100px 0;}
+#advantages h2 span {  text-transform: uppercase;  }
+.agent, .client { margin: 80px 0;}
+
+.social { border-radius: 100%;width: 36px; height: 36px; position: relative;}
+.social i { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%);}
+
+.gray .social  {  background-color: #1966a0; }
+.gray .social  i { color: white; }
+.wave .social { background-color: white;}
+.wave .social i { color: #1966a0;}
