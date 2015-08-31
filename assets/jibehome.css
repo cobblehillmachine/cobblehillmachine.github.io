@@ -16,6 +16,7 @@ h4 {  font-size: 31px;}
 .section.gray { background-color: #f5f6f6;}
 .wave {  background-image: url(../images/blue-background-1.jpg); background-repeat: no-repeat; background-size: cover; color: white;}
 .wave .mid-cont * { display: inline-block; vertical-align: middle;}
+.wave form {  margin-left: 40px;}
 .center { text-align: center;}
 
 header {  display: table; padding: 20px 0; font-size: 18px;}
@@ -26,8 +27,8 @@ li { display: inline-block;}
 
 .left, .right { display: inline-block; width: 49%; vertical-align: top;}
 
-input[type="text"] {  border: 3px solid #cdd0d3; border-radius: 10px; padding: 15px 10px; min-width: 250px; vertical-align: top;}
-input[type="submit"] {  background-color: #e84824; background-image: url(../images/submit-arrow.png);; background-repeat: no-repeat;background-position: 50% 50%; height: 40px; -webkit-appearance: none; appearance: none; -moz-appearance: none; width: 52px; border: 0; border-radius: 10px; background-size: 30px; vertical-align: top;}
+input[type="text"] {  border: 3px solid #cdd0d3; border-radius: 10px; padding: 12px 10px; width: 355px; vertical-align: top; margin-right: 5px; font-size: 20px;font-family: 'proxima-nova'; font-weight: 400; font-style: normal ; }
+input[type="submit"] {  background-color: #e84824; background-image: url(../images/submit-arrow.png);; background-repeat: no-repeat;background-position: 50% 50%; height: 53px; -webkit-appearance: none; appearance: none; -moz-appearance: none; width: 69px; border: 0; border-radius: 10px; background-size: 24px; vertical-align: top; }
 
 .icons {  display: table;}
 .icon { display: table-cell; width: 30%; padding: 20px 50px;}
@@ -37,8 +38,8 @@ input[type="submit"] {  background-color: #e84824; background-image: url(../imag
 
 #home-base.section h2 { font-size: 35px;}
 #home-base.section p {  color: black;}
-#home-base.section .left { padding-right: 20px;}
-#home-base.section .right { padding-left: 20px; text-align: left;}
+#home-base.section .left { padding-right: 20px; vertical-align: middle;}
+#home-base.section .right { padding-left: 20px; text-align: left; vertical-align: middle;}
 
 #features.section h2 {  max-width: 700px; margin: 30px auto;}
 
@@ -46,6 +47,7 @@ input[type="submit"] {  background-color: #e84824; background-image: url(../imag
 #advantages h2 {  font-size: 30px;}
 #advantages h2 span {  text-transform: uppercase; font-size: 16px; display: inline-block; margin-right: 10px; }
 #advantages p {color: black;}
+#advantages .left { padding-right: 30px;}
 .agent, .client { margin: 80px 0;}
 
 .share span { font-size: 18px;}
@@ -62,5 +64,8 @@ input[type="submit"] {  background-color: #e84824; background-image: url(../imag
 .section.gif p {  margin: 30px 0;}
 .section.gif .right { text-align: center;}
 .share.wave { position: absolute; bottom: 47px; left: 0; width: 100%; z-index: -1;}
+
+.gray form {  margin: 20px 0;}
+.gray .share * { display: inline-block; vertical-align: middle; padding: 0 10px;}
 
 .footer {  font-size: 18px;}
