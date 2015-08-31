@@ -93,6 +93,7 @@ input[type="submit"] {  background-color: #e84824; background-image: url(../imag
   .logo, .nav, .icon,.icons, .left, .right { display: block; text-align: center; width: 100%; margin: 0 auto; padding: 0;}
   .mid-cont { width: 90%;}
   .section {  padding: 50px 0;}
+  .nav{ margin-top: 20px;}
   .section.gif {  height: auto; padding: 50px 0 0;}
   .section.gif .mid-cont {background-image: none; height: auto;}
   .section.gif .left {  padding-bottom: 0; padding-top: 0;}
@@ -110,7 +111,8 @@ input[type="submit"] {  background-color: #e84824; background-image: url(../imag
 }
 
 @media only screen and (max-width: 500px) {
-  .nav li { padding: 10px; display: block;}
+
+  .nav li { padding: 0 3%;}
   .gray .share span, .wave.share span {  margin-bottom: 20px; display: block;}
   .section.gif img {  width: 100%}
   input[type="text"], input[type="submit"] {  width: 100%; display:block; max-width: none;}
