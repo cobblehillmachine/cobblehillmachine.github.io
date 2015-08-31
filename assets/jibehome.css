@@ -1,5 +1,6 @@
 body {font-family: 'proxima-nova'; font-weight: 400; font-style: normal ;  color: #1966a0; margin: 0;  font-size: 20px;}
 body * {box-sizing: border-box;}
+*:focus { border: 0;  outline:none;}
 h2,h3 { font-family: 'adelle-sans'; font-weight: 700; font-style: normal; letter-spacing: 1px;}
 li {  list-style: none;}
 ul {  margin: 0; padding: 0;}
@@ -12,12 +13,14 @@ h3 {  font-size: 22px;}
 h4 {  font-size: 31px;font-weight: 400;}
 
 .mid-cont { width: 85%; margin: 0 auto; max-width: 1200px;}
-.section {  display: block; background-color: white; padding: 50px 0;}
+.section {  display: block; background-color: white; padding: 100px 0;}
+.section.wave { padding: 50px 0;}
 .section.gray { background-color: #f5f6f6;}
 .wave {  background-image: url(../images/blue-background-1.jpg); background-repeat: no-repeat; background-size: cover; color: white;}
 .wave .mid-cont * { display: inline-block; vertical-align: middle;}
-.wave form {  margin-left: 40px;}
+.wave form {  margin-left: 40px; width: 50%;}
 .center { text-align: center;}
+.mobile { display: none;}
 
 header {  display: table; padding: 20px 0; font-size: 18px;}
 .logo, .nav { display: table-cell; vertical-align: middle;}
@@ -27,10 +30,10 @@ li { display: inline-block;}
 
 .left, .right { display: inline-block; width: 49%; vertical-align: top;}
 
-input[type="text"] {  border: 3px solid #cdd0d3; border-radius: 10px; padding: 12px 10px; width: 355px; vertical-align: top; margin-right: 5px; font-size: 20px;font-family: 'proxima-nova'; font-weight: 400; font-style: normal ; }
+input[type="text"] {  border: 3px solid #cdd0d3; border-radius: 10px; padding: 12px 10px; max-width: 355px; width: 75%; vertical-align: top; margin-right: 5px; font-size: 20px;font-family: 'proxima-nova'; font-weight: 400; font-style: normal ; }
 input[type="submit"] {  background-color: #e84824; background-image: url(../images/submit-arrow.png);; background-repeat: no-repeat;background-position: 50% 50%; height: 53px; -webkit-appearance: none; appearance: none; -moz-appearance: none; width: 69px; border: 0; border-radius: 10px; background-size: 24px; vertical-align: top; cursor: pointer;}
 
-#features.section h2 {  max-width: 700px; margin: 25px auto 75px;}
+#features.section h2 {  max-width: 700px; margin: 0 auto 75px;}
 .icons {  display: table;}
 .icon { display: table-cell; width: 30%; padding: 20px 35px;}
 .icon:first-child { padding-left: 0;}
@@ -46,7 +49,7 @@ input[type="submit"] {  background-color: #e84824; background-image: url(../imag
 
 
 
-#advantages { background-image: url(../images/browser.jpg); background-repeat: no-repeat;background-position: 100% 50%; background-size: contain;margin: 100px 0;}
+#advantages { background-image: url(../images/browser.jpg); background-repeat: no-repeat;background-position: 100% 50%; background-size: 49%;}
 #advantages h2 {  font-size: 30px;}
 #advantages h2 span {  text-transform: uppercase; font-size: 16px; display: inline-block; margin-right: 10px; }
 #advantages p {color: black;}
@@ -62,20 +65,51 @@ input[type="submit"] {  background-color: #e84824; background-image: url(../imag
 .wave .social { background-color: white;}
 .wave .social i { color: #1966a0;}
 
-.section.gif {  position: relative; z-index: 1; height: 730px; padding-top: 0;}
-.section.gif .mid-cont { background-image: url(../images/iphone.gif); background-repeat: no-repeat; background-position: 92% 42%; background-size: 330px; height: 100%;}
+.section.gif {  position: relative; z-index: 1; height: 775px; padding-top: 0;}
+.section.gif .mid-cont { background-image: url(../images/iphone.gif); background-repeat: no-repeat; background-position: 92% 34%; background-size: 330px; height: 100%;}
 .section.gif img {  width: 50%;}
 .section.gif p {  margin: 30px 0;}
 .section.gif .left {  padding-top: 75px;}
 .section.gif .right { text-align: center;}
-.share.wave { position: absolute; bottom: 47px; left: 0; width: 100%; z-index: -1; padding: 75px 0;}
+.share.wave { position: absolute; bottom: 47px; left: 0; width: 100%; z-index: -1; padding: 100px 0;background-size: 123%; background-position: 69% 50%;}
 .share.wave span {  margin-right: 15px;}
 
-.section.gray.center {  padding-bottom: 75px;}
-.gray.center h2 { max-width: 800px; margin: 50px auto 75px;}
-.gray form {  margin: 40px 0;}
+
+.gray.center h2 { max-width: 800px; margin: 0 auto;}
+.gray form {  margin: 50px 0;}
 .gray .share * { display: inline-block; vertical-align: middle; padding: 0 10px;}
 
 .footer {  font-size: 18px;}
 .footer .right {  text-align: right;}
 .footer .right span { margin-left: 70px;}
+
+
+
+@media only screen and (max-width: 1060px) {
+  .share.wave { background-image: none; background-color: #2b72a7;}
+}
+
+@media only screen and (max-width: 900px) {
+  .logo, .nav, .icon,.icons, .left, .right { display: block; text-align: center; width: 100%; margin: 0 auto; padding: 0;}
+  .mid-cont { width: 90%;}
+  .nav{ margin-top: 25px;}
+  .section {  padding: 50px 0;}
+  .section.gif {  height: auto; padding-bottom: 0;}
+  .section.gif .mid-cont {background-image: none; height: auto;}
+  .section.gif .left {  padding-bottom: 50px;}
+  .mobile-gif, .mobile { display: block;text-align: center;}
+  .mobile-gif { background-image: linear-gradient(to top, #2b72a7 150px, white 150px) ;}
+  .share.wave { position: relative; text-align: center;}
+  .icon { margin: 50px auto;}
+  .wave .mid-cont h4 {  display: block; margin-bottom: 20px; }
+  #home-base.section .right { padding: 0; margin-top: 40px;}
+  #advantages { background-image: none;padding-bottom: 0;}
+  .wave form {  width: 100%; margin-left: 0;}
+  .agent {  margin: 45px 0;}
+}
+
+@media only screen and (max-width: 500px) {
+  .nav li { padding: 0 10px;}
+  .gray .share span, .wave.share span {  margin-bottom: 20px; display: block;}
+  .section.gif img {  width: 100%}
+}
