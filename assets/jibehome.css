@@ -30,7 +30,7 @@ input[type="submit"] {  background-color: #e84824; background-image: url(../imag
 
 .icons {  display: table;}
 .icon { display: table-cell; width: 30%; padding: 20px 50px;}
-.icon h3 {  margin: 15px 0;}
+.icon h3 {  margin: 15px 0; text-transform: uppercase;}
 .icon p { font-size: 18px; }
 .icon img { height: 100px; width: auto;}
 
