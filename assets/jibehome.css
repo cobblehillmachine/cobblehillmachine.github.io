@@ -14,6 +14,7 @@ h4 {  font-size: 31px;}
 .section {  display: block; background-color: white; padding: 50px 0;}
 .section.gray { background-color: #f5f6f6;}
 .wave {  background-image: url(../images/blue-background-1.jpg); background-repeat: no-repeat; background-size: cover; color: white;}
+.wave .mid-cont * { display: inline-block; vertical-align: middle;}
 .center { text-align: center;}
 
 header {  display: table; padding: 20px 0; font-size: 18px;}
@@ -28,18 +29,23 @@ input[type="text"] {  border: 3px solid #cdd0d3; border-radius: 10px; padding: 1
 input[type="submit"] {  background-color: #e84824; background-image: url(../images/submit-arrow.png);; background-repeat: no-repeat;background-position: 50% 50%; height: 40px; -webkit-appearance: none; appearance: none; -moz-appearance: none; width: 52px; border: 0; border-radius: 10px; background-size: 30px; vertical-align: top;}
 
 .icons {  display: table;}
-.icon { display: table-cell; width: 30%; padding: 20px;}
-.icon p { font-size: 18px;}
+.icon { display: table-cell; width: 30%; padding: 20px 50px;}
+.icon h3 {  margin: 15px 0;}
+.icon p { font-size: 18px; }
+.icon img { height: 100px; width: auto;}
 
 #home-base.section h2 { font-size: 35px;}
 #home-base.section p {  color: black;}
 
+#features.section h2 {  width: 50%; margin: 30px auto;}
+
 #advantages { background-image: url(../images/browser.jpg); background-repeat: no-repeat;background-position: 100% 50%; background-size: 49%; padding: 100px 0;}
 #advantages h2 {  font-size: 30px;}
-#advantages h2 span {  text-transform: uppercase; font-size: 16px; }
+#advantages h2 span {  text-transform: uppercase; font-size: 16px; display: inline-block; margin-right: 10px; }
 #advantages p {color: black;}
 .agent, .client { margin: 80px 0;}
 
+.share span { font-size: 18px;}
 .social { border-radius: 100%;width: 36px; height: 36px; position: relative;}
 .social i { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%);}
 
@@ -50,3 +56,6 @@ input[type="submit"] {  background-color: #e84824; background-image: url(../imag
 
 .section.gif {  margin-bottom: -200px;}
 .section.gif img {  width: 50%;}
+.section.gif p {  margin: 30px 0;}
+
+.footer {  font-size: 18px;}
