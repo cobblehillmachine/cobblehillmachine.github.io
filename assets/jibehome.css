@@ -28,22 +28,25 @@ li { display: inline-block;}
 .left, .right { display: inline-block; width: 49%; vertical-align: top;}
 
 input[type="text"] {  border: 3px solid #cdd0d3; border-radius: 10px; padding: 12px 10px; width: 355px; vertical-align: top; margin-right: 5px; font-size: 20px;font-family: 'proxima-nova'; font-weight: 400; font-style: normal ; }
-input[type="submit"] {  background-color: #e84824; background-image: url(../images/submit-arrow.png);; background-repeat: no-repeat;background-position: 50% 50%; height: 53px; -webkit-appearance: none; appearance: none; -moz-appearance: none; width: 69px; border: 0; border-radius: 10px; background-size: 24px; vertical-align: top; }
+input[type="submit"] {  background-color: #e84824; background-image: url(../images/submit-arrow.png);; background-repeat: no-repeat;background-position: 50% 50%; height: 53px; -webkit-appearance: none; appearance: none; -moz-appearance: none; width: 69px; border: 0; border-radius: 10px; background-size: 24px; vertical-align: top; cursor: pointer;}
 
+#features.section h2 {  max-width: 700px; margin: 25px auto 75px;}
 .icons {  display: table;}
-.icon { display: table-cell; width: 30%; padding: 20px 50px;}
+.icon { display: table-cell; width: 30%; padding: 20px 35px;}
+.icon:first-child { padding-left: 0;}
+.icon:last-child {  padding-right: 0;}
 .icon h3 {  margin: 15px 0; text-transform: uppercase;}
-.icon p { font-size: 18px; }
+.icon p { font-size: 18px; width: 75%; margin: 0 auto;}
 .icon img { height: 100px; width: auto;}
 
 #home-base.section h2 { font-size: 35px;}
 #home-base.section p {  color: black;}
-#home-base.section .left { padding-right: 20px; vertical-align: middle;}
-#home-base.section .right { padding-left: 20px; text-align: left; vertical-align: middle;}
+#home-base.section .left { vertical-align: middle;}
+#home-base.section .right { padding-left: 75px; text-align: left; vertical-align: middle;}
 
-#features.section h2 {  max-width: 700px; margin: 30px auto;}
 
-#advantages { background-image: url(../images/browser.jpg); background-repeat: no-repeat;background-position: 100% 50%; background-size: contain; padding: 100px 0; margin: 100px 0;}
+
+#advantages { background-image: url(../images/browser.jpg); background-repeat: no-repeat;background-position: 100% 50%; background-size: contain;margin: 100px 0;}
 #advantages h2 {  font-size: 30px;}
 #advantages h2 span {  text-transform: uppercase; font-size: 16px; display: inline-block; margin-right: 10px; }
 #advantages p {color: black;}
