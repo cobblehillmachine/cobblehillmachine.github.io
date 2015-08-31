@@ -71,6 +71,8 @@ input[type="submit"] {  background-color: #e84824; background-image: url(../imag
 .share.wave { position: absolute; bottom: 47px; left: 0; width: 100%; z-index: -1; padding: 75px 0;}
 .share.wave span {  margin-right: 15px;}
 
+.section.gray.center {  padding-bottom: 75px;}
+.gray.center h2 { max-width: 800px; margin: 50px auto 75px;}
 .gray form {  margin: 40px 0;}
 .gray .share * { display: inline-block; vertical-align: middle; padding: 0 10px;}
 
