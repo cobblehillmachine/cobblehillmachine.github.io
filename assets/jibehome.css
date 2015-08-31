@@ -30,8 +30,8 @@ li { display: inline-block;}
 
 .left, .right { display: inline-block; width: 49%; vertical-align: top;}
 
-input[type="text"] {  border: 3px solid #cdd0d3; border-radius: 10px; padding: 12px 10px; max-width: 355px; width: 75%; vertical-align: top; margin-right: 5px; font-size: 20px;font-family: 'proxima-nova'; font-weight: 400; font-style: normal ; }
-input[type="submit"] {  background-color: #e84824; background-image: url(../images/submit-arrow.png);; background-repeat: no-repeat;background-position: 50% 50%; height: 53px; -webkit-appearance: none; appearance: none; -moz-appearance: none; width: 69px; border: 0; border-radius: 10px; background-size: 24px; vertical-align: top; cursor: pointer;}
+input[type="text"] {  border: 3px solid #cdd0d3; border-radius: 10px; padding: 12px 10px; max-width: 355px; width: 75%; vertical-align: top; margin-right: 5px; font-size: 20px;font-family: 'proxima-nova'; font-weight: 400; font-style: normal ;  appearance: none; -webkit-appearance: none; -moz-appearance: none;}
+input[type="submit"] {  background-color: #e84824; background-image: url(../images/submit-arrow.png);; background-repeat: no-repeat;background-position: 50% 50%; height: 53px; -webkit-appearance: none; appearance: none; -moz-appearance: none; width: 69px; border: 0; border-radius: 10px; background-size: 24px; vertical-align: top; cursor: pointer;appearance: none; -webkit-appearance: none; -moz-appearance: none;}
 
 #features.section h2 {  max-width: 700px; margin: 0 auto 75px;}
 .icons {  display: table;}
