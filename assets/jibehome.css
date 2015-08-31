@@ -92,11 +92,10 @@ input[type="submit"] {  background-color: #e84824; background-image: url(../imag
 @media only screen and (max-width: 900px) {
   .logo, .nav, .icon,.icons, .left, .right { display: block; text-align: center; width: 100%; margin: 0 auto; padding: 0;}
   .mid-cont { width: 90%;}
-  .nav{ margin-top: 25px;}
   .section {  padding: 50px 0;}
-  .section.gif {  height: auto; padding-bottom: 0;}
+  .section.gif {  height: auto; padding: 50px 0 0;}
   .section.gif .mid-cont {background-image: none; height: auto;}
-  .section.gif .left {  padding-bottom: 50px;}
+  .section.gif .left {  padding-bottom: 0; padding-top: 0;}
   .mobile-gif, .mobile { display: block;text-align: center;}
   .mobile-gif { background-image: linear-gradient(to top, #2b72a7 150px, white 150px) ;}
   .share.wave { position: relative; text-align: center;}
@@ -105,11 +104,14 @@ input[type="submit"] {  background-color: #e84824; background-image: url(../imag
   #home-base.section .right { padding: 0; margin-top: 40px;}
   #advantages { background-image: none;padding-bottom: 0;}
   .wave form {  width: 100%; margin-left: 0;}
-  .agent {  margin: 45px 0;}
+  .agent {  margin: 0 0 45px;}
+  .footer .right {  text-align: center;}
+  .footer .right span { margin-left: 0; display: block; margin: 10px 0;}
 }
 
 @media only screen and (max-width: 500px) {
-  .nav li { padding: 0 10px;}
+  .nav li { padding: 10px; display: block;}
   .gray .share span, .wave.share span {  margin-bottom: 20px; display: block;}
   .section.gif img {  width: 100%}
+  input[type="text"], input[type="submit"] {  width: 100%; display:block; max-width: none;}
 }
