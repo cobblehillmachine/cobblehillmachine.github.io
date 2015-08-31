@@ -43,7 +43,7 @@ input[type="submit"] {  background-color: #e84824; background-image: url(../imag
 
 #features.section h2 {  max-width: 700px; margin: 30px auto;}
 
-#advantages { background-image: url(../images/browser.jpg); background-repeat: no-repeat;background-position: 100% 50%; background-size: 49%; padding: 100px 0;}
+#advantages { background-image: url(../images/browser.jpg); background-repeat: no-repeat;background-position: 100% 50%; background-size: contain; padding: 100px 0; margin: 100px 0;}
 #advantages h2 {  font-size: 30px;}
 #advantages h2 span {  text-transform: uppercase; font-size: 16px; display: inline-block; margin-right: 10px; }
 #advantages p {color: black;}
@@ -51,7 +51,7 @@ input[type="submit"] {  background-color: #e84824; background-image: url(../imag
 .agent, .client { margin: 80px 0;}
 
 .share span { font-size: 18px;}
-.social { border-radius: 100%;width: 36px; height: 36px; position: relative;}
+.social { border-radius: 100%;width: 36px; height: 36px; position: relative; margin: 0 3px;}
 .social i { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%);}
 
 .gray .social  {  background-color: #1966a0; }
@@ -66,6 +66,7 @@ input[type="submit"] {  background-color: #e84824; background-image: url(../imag
 .section.gif .left {  padding-top: 75px;}
 .section.gif .right { text-align: center;}
 .share.wave { position: absolute; bottom: 47px; left: 0; width: 100%; z-index: -1; padding: 75px 0;}
+.share.wave span {  margin-right: 15px;}
 
 .gray form {  margin: 40px 0;}
 .gray .share * { display: inline-block; vertical-align: middle; padding: 0 10px;}
