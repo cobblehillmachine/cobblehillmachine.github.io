@@ -67,12 +67,12 @@ input[type="submit"] {  background-color: #e84824; background-image: url(../imag
 .wave .social i { color: #1966a0;}
 
 .section.gif {  position: relative; z-index: 1; height: 775px; padding-top: 0;}
-.section.gif .mid-cont { background-image: url(../images/iphone-compressor.gif); background-repeat: no-repeat; background-position: 92% 34%; background-size: 330px; height: 100%;}
+.section.gif .mid-cont .right { background-image: url(../images/iphone-compressor.gif); background-repeat: no-repeat; background-position: 92% 34%; background-size: 330px;     width: 50%;height: 675px;z-index: 2;position: relative;}
 .section.gif img {  width: 50%;}
 .section.gif p {  margin: 30px 0;}
 .section.gif .left {  padding-top: 75px;}
 .section.gif .right { text-align: center;}
-.share.wave { position: absolute; bottom: 47px; left: 0; width: 100%; z-index: -1; padding: 100px 0;background-size: 123%; background-position: 69% 50%;}
+.share.wave { position: absolute; bottom: 47px; left: 0; width: 100%; padding: 100px 0;background-size: 123%; background-position: 69% 50%;}
 .share.wave span {  margin-right: 15px;}
 
 
@@ -96,7 +96,7 @@ input[type="submit"] {  background-color: #e84824; background-image: url(../imag
   .section {  padding: 50px 0;}
   /*.nav{ margin-top: 20px;}*/
   .section.gif {  height: auto; padding: 50px 0 0;}
-  .section.gif .mid-cont {background-image: none; height: auto;}
+  .section.gif .mid-cont .right {background-image: none; height: auto;}
   .section.gif .left {  padding-bottom: 0; padding-top: 0;}
   .mobile-gif, .mobile { display: block;text-align: center;}
   .mobile-gif { margin: 40px auto;}
