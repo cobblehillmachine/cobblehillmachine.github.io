@@ -16,7 +16,7 @@ h4 {  font-size: 31px;font-weight: 400;}
 .section {  display: block; background-color: white; padding: 100px 0;}
 .section.wave { padding: 50px 0;}
 .section.gray { background-color: #f5f6f6;}
-.wave {  background-image: url(../images/blue-background-1.jpg); background-repeat: no-repeat; background-size: cover; color: white;}
+.wave {  background-image: url(../images/blue-background.jpg); background-repeat: no-repeat; background-size: cover; color: white;}
 .wave .mid-cont * { display: inline-block; vertical-align: middle;}
 .wave form {  margin-left: 40px; width: 50%;}
 .center { text-align: center;}
@@ -100,7 +100,7 @@ input[type="submit"] {  background-color: #e84824; background-image: url(../imag
   .section.gif .left {  padding-bottom: 0; padding-top: 0;}
   .mobile-gif, .mobile { display: block;text-align: center;}
   .mobile-gif { margin: 40px auto;}
-  .share.wave { position: relative; text-align: center;bottom: auto; background-image: url(../images/blue-background-1.jpg); background-size:cover; background-position: 50% 50%;}
+  .share.wave { position: relative; text-align: center;bottom: auto; background-image: url(../images/blue-background.jpg); background-size:cover; background-position: 50% 50%;}
   .icon { margin: 50px auto;}
   .wave .mid-cont h4 {  display: block; margin-bottom: 20px; }
   #home-base.section .right { padding: 0; margin-top: 40px;}
