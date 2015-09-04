@@ -27,7 +27,8 @@ header {  display: table; padding: 20px 0; font-size: 18px;}
 .logo, .nav { display: table-cell; vertical-align: middle;}
 .nav  { text-align: right;}
 .nav li { padding: 0 25px; font-weight: 600;}
-.nav a:hover {  text-decoration: underline;}
+.nav li a { padding-bottom: 5px;}
+.nav li:hover a { border-bottom: 2px solid #1966a0;}
 li { display: inline-block;}
 
 .left, .right { display: inline-block; width: 49%; vertical-align: top;}
