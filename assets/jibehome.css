@@ -26,13 +26,15 @@ header {  display: table; padding: 20px 0; font-size: 18px;}
 .logo img{ max-width: 180px;}
 .logo, .nav { display: table-cell; vertical-align: middle;}
 .nav  { text-align: right;}
-.nav li { padding: 0 25px;}
+.nav li { padding: 0 25px; font-weight: 600;}
+.nav a:hover {  text-decoration: underline;}
 li { display: inline-block;}
 
 .left, .right { display: inline-block; width: 49%; vertical-align: top;}
 
 input[type="text"] {  border: 3px solid #cdd0d3; border-radius: 10px; padding: 12px 10px; max-width: 355px; width: 75%; vertical-align: top; margin-right: 5px; font-size: 20px;font-family: 'proxima-nova'; font-weight: 400; font-style: normal ;  appearance: none; -webkit-appearance: none; -moz-appearance: none;}
-input[type="submit"] {  background-color: #e84824; background-image: url(../images/submit-arrow.png);; background-repeat: no-repeat;background-position: 50% 50%; height: 53px; -webkit-appearance: none; appearance: none; -moz-appearance: none; width: 69px; border: 0; border-radius: 10px; background-size: 24px; vertical-align: top; cursor: pointer;appearance: none; -webkit-appearance: none; -moz-appearance: none;}
+input[type="submit"] {  background-color: #e84824; background-image: url(../images/submit-arrow.png);; background-repeat: no-repeat;background-position: 50% 50%; height: 53px; -webkit-appearance: none; appearance: none; -moz-appearance: none; width: 69px; border: 0; border-radius: 10px; background-size: 24px; vertical-align: top; cursor: pointer;appearance: none; -webkit-appearance: none; -moz-appearance: none; transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease;}
+input[type="submit"]:hover {  background-color: #d63c19;}
 
 #features.section h2 {  max-width: 700px; margin: 0 auto 75px;}
 .icons {  display: table;}
@@ -44,7 +46,7 @@ input[type="submit"] {  background-color: #e84824; background-image: url(../imag
 .icon img { height: 100px; width: auto;}
 
 #home-base.section h2 { font-size: 35px;}
-#home-base.section p {  color: black;}
+#home-base.section p {  color: #212121;}
 #home-base.section .left { vertical-align: middle;}
 #home-base.section .right { padding-left: 75px; text-align: left; vertical-align: middle;}
 
@@ -53,7 +55,7 @@ input[type="submit"] {  background-color: #e84824; background-image: url(../imag
 #advantages { background-image: url(../images/browser.jpg); background-repeat: no-repeat;background-position: 100% 50%; background-size: 49%;}
 #advantages h2 {  font-size: 30px;}
 #advantages h2 span {  text-transform: uppercase; font-size: 16px; display: inline-block; margin-right: 10px; }
-#advantages p {color: black;}
+#advantages p {color: #212121;}
 #advantages .left { padding-right: 30px;}
 .agent {  margin-bottom: 80px;}
 
