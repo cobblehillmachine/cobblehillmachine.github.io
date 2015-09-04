@@ -70,13 +70,13 @@ input[type="submit"]:hover {  background-color: #d63c19;}
 .wave .social i { color: #1966a0;}
 .social:hover i { opacity: 0.8;}
 
-.section.gif {  position: relative; z-index: 1; height: 775px; padding-top: 0;}
-.section.gif .mid-cont .right { background-image: url(../images/iphone-blue.gif); background-repeat: no-repeat; background-position: 92% 34%; background-size: 330px;     width: 50%;height: 650px;z-index: 2;position: relative;}
+.section.gif {  position: relative; z-index: 1; height: 645px; padding-top: 0;}
+.section.gif .mid-cont .right { background-image: url(../images/iphone-blue.gif); background-repeat: no-repeat; background-position: 74% 7%; background-size: 264px;     width: 50%;height: 724px;z-index: 2;position: relative;}
 .section.gif img {  width: 50%;}
 .section.gif p {  margin: 30px 0;}
 .section.gif .left {  padding-top: 75px;}
 .section.gif .right { text-align: center;}
-.share.wave { position: absolute; bottom: 47px; left: 0; width: 100%; padding: 100px 0;background-size: 123%; background-position: 69% 50%;}
+.share.wave { position: absolute; bottom: 47px; left: 0; width: 100%; padding: 75px 0;background-size: 123%; background-position: 69% 50%;}
 .share.wave span {  margin-right: 15px;}
 
 
