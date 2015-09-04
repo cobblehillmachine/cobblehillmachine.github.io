@@ -33,7 +33,7 @@ li { display: inline-block;}
 
 .left, .right { display: inline-block; width: 49%; vertical-align: top;}
 
-input[type="text"] {  border: 3px solid #cdd0d3; border-radius: 10px; padding: 12px 10px; max-width: 355px; width: 75%; vertical-align: top; margin-right: 5px; font-size: 20px;font-family: 'proxima-nova'; font-weight: 400; font-style: normal ;  appearance: none; -webkit-appearance: none; -moz-appearance: none;}
+input[type="text"] {  border: 3px solid #cdd0d3; border-radius: 10px; padding: 12px 10px; max-width: 355px; width: 75%; vertical-align: top; margin-right: 5px; font-size: 18px;font-family: 'proxima-nova'; font-weight: 400; font-style: normal ;  appearance: none; -webkit-appearance: none; -moz-appearance: none;}
 input[type="submit"] {  background-color: #e84824; background-image: url(../images/submit-arrow.png);; background-repeat: no-repeat;background-position: 50% 50%; height: 53px; -webkit-appearance: none; appearance: none; -moz-appearance: none; width: 69px; border: 0; border-radius: 10px; background-size: 24px; vertical-align: top; cursor: pointer;appearance: none; -webkit-appearance: none; -moz-appearance: none; transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease;}
 input[type="submit"]:hover {  background-color: #d63c19;}
 
