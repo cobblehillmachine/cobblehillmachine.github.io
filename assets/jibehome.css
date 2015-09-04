@@ -61,12 +61,13 @@ input[type="submit"]:hover {  background-color: #d63c19;}
 
 .share span { font-size: 18px;}
 .social { border-radius: 100%;width: 36px; height: 36px; position: relative; margin: 0 3px;}
-.social i { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%);}
+.social i { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%);transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; }
 
 .gray .social  {  background-color: #1966a0; }
 .gray .social  i { color: white; }
 .wave .social { background-color: white;}
 .wave .social i { color: #1966a0;}
+.social:hover i { opacity: 0.75;}
 
 .section.gif {  position: relative; z-index: 1; height: 775px; padding-top: 0;}
 .section.gif .mid-cont .right { background-image: url(../images/iphone-blue.gif); background-repeat: no-repeat; background-position: 92% 34%; background-size: 330px;     width: 50%;height: 650px;z-index: 2;position: relative;}
