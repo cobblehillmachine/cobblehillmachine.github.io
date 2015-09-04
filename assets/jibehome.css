@@ -67,7 +67,7 @@ input[type="submit"]:hover {  background-color: #d63c19;}
 .gray .social  i { color: white; }
 .wave .social { background-color: white;}
 .wave .social i { color: #1966a0;}
-.social:hover i { opacity: 0.75;}
+.social:hover i { opacity: 0.8;}
 
 .section.gif {  position: relative; z-index: 1; height: 775px; padding-top: 0;}
 .section.gif .mid-cont .right { background-image: url(../images/iphone-blue.gif); background-repeat: no-repeat; background-position: 92% 34%; background-size: 330px;     width: 50%;height: 650px;z-index: 2;position: relative;}
