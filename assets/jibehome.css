@@ -54,7 +54,7 @@ input[type="submit"]:hover {  background-color: #d63c19;}
 
 
 
-#advantages { background-image: url(../images/browser.jpg); background-repeat: no-repeat;background-position: 100% 50%; background-size: 49%;}
+#advantages { background-image: url(../images/browser.jpg); background-repeat: no-repeat;background-position: 100% 50%; background-size: contain;}
 #advantages h2 {  font-size: 30px;}
 #advantages h2 span {  text-transform: uppercase; font-size: 16px; display: inline-block; margin-right: 10px; }
 #advantages p {color: #212121;}
@@ -89,7 +89,9 @@ input[type="submit"]:hover {  background-color: #d63c19;}
 .footer .right {  text-align: right;}
 .footer .right span { margin-left: 70px;}
 
-
+@media only screen and (max-width: 1370px) {
+  #advantages { background-size: 49%;}
+}
 
 @media only screen and (max-width: 1060px) {
   .share.wave { background-image: none; background-color: #2b72a7;}
