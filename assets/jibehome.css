@@ -65,7 +65,7 @@ input[type="submit"]:hover {  background-color: #d63c19;}
 
 .share span { font-size: 18px;}
 .social { border-radius: 100%;width: 36px; height: 36px; position: relative; margin: 0 3px;}
-.social i { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%);transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease; }
+.social i { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%);transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease;  font-size: 18px;}
 
 .gray .social  {  background-color: #1966a0; }
 .gray .social  i { color: white; }
