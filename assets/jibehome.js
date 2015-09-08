@@ -1,5 +1,8 @@
+var offset;
+
 $(window).load(function() {
   smoothScroll();
+  offset = $('.nav.mobile').offset().top;
 })
 
 function smoothScroll() {
@@ -15,7 +18,10 @@ function smoothScroll() {
 
 
 $(window).scroll(function() {
-  $('.nav.mobile').addClass('sticky', $(window).scrollTop() > $('.nav.mobile').offset().top);
-  $('.nav.mobile').removeClass('sticky', $(window).scrollTop() < $('.nav.mobile').offset().top);
+  if ($(window).scrollTop() < offset) {
+    $('.nav.mobile').removeClass('sticky');
+  } else if ($(window).scrollTop() > offset) {
+    $('.nav.mobile').addClass('sticky');
+  }
 });
 
