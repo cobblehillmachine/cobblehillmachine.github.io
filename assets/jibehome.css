@@ -114,6 +114,7 @@ input[type="submit"]:hover {  background-color: #d63c19;}
   .nav.mobile li {  display: inline-block;}
   .logo, .nav, .icon,.icons, .left, .right { display: block; text-align: center; width: 100%; margin: 0 auto; padding: 0;}
   .mid-cont { width: 90%;}
+  .nav li:hover a { border-bottom: 0;}
   .section {  padding: 50px 0;}
   /*.nav{ margin-top: 20px;}*/
   .section.gif {  height: auto; padding: 0;}
