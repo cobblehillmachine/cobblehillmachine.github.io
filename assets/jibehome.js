@@ -55,5 +55,7 @@ function currentDiv() {
   } else if ($(window).scrollTop() > advantages) {
     $('.nav a').removeClass('active');
     $('.nav a.advantages').addClass('active')
+  } else {
+    $('.nav a').removeClass('active');
   }
 }
