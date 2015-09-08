@@ -1,13 +1,21 @@
 var offset;
+var features;
+var homebase;
+var advantages;
 
 $(window).load(function() {
   smoothScroll();
   offset = $('.nav.mobile').offset().top;
+  features = $('#features').offset().top;
+  homeBase = $('#home-base').offset().top;
+  advantages = $('#advantages').offset().top;
   stickyNav();
+  currentDiv();
 })
 
 $(window).scroll(function() {
   stickyNav();
+  currentDiv();
 });
 
 function smoothScroll() {
@@ -38,4 +46,11 @@ function stickyNav()  {
 
 function currentDiv() {
 
+  if ($(window).scrollTop() > features && $(window).scrollTop() < homeBase) {
+    console.log('features');
+  } else if ($(window).scrollTop() > homeBase && $(window).scrollTop() < advantages) {
+    console.log('homebase');
+  } else if ($(window).scrollTop() > advantages) {
+    console.log('advantages')
+  }
 }
