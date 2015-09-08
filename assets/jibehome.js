@@ -13,11 +13,7 @@ function smoothScroll() {
 }
 
 
-var $window = $(window);
-var $stickyEl = $('.nav.mobile');
-var elTop = $('.nav.mobile').offset().top;
-
-$window.scroll(function() {
-  $stickyEl.toggleClass('sticky', $window.scrollTop() > elTop);
+$(window).scroll(function() {
+  $('.nav.mobile').toggleClass('sticky', $(window).scrollTop() > $('.nav.mobile').offset().top);
 });
 
