@@ -103,6 +103,8 @@ input[type="submit"]:hover {  background-color: #d63c19;}
   body, .icon p {  font-size: 14px;}
   h1, h2, #home-base.section h2 {  font-size: 26px; line-height: 30px;}
   .nav.desktop {  display: none;}
+  .logo img { max-width: 150px;}
+  header {  padding: 20px 0 0;}
   .nav.mobile { display: block; padding: 20px 0 0;}
   .nav.mobile.sticky {  position: fixed; top: 0;}
   .nav.mobile ul {  text-align: justify; height: 27px; font-size: 16px;}
@@ -112,7 +114,7 @@ input[type="submit"]:hover {  background-color: #d63c19;}
   .mid-cont { width: 90%;}
   .section {  padding: 50px 0;}
   /*.nav{ margin-top: 20px;}*/
-  .section.gif {  height: auto; padding: 15px 0 0;}
+  .section.gif {  height: auto; padding: 0;}
   .section.gif .mid-cont .right {background-image: none; height: auto;}
   .section.gif .left {  padding-bottom: 0; padding-top: 0;}
   .mobile-gif, .mobile { display: block;text-align: center;}
