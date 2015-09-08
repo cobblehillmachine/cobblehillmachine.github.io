@@ -6,9 +6,9 @@ var advantages;
 $(window).load(function() {
   smoothScroll();
   offset = $('.nav.mobile').offset().top;
-  features = $('#features').offset().top;
-  homeBase = $('#home-base').offset().top;
-  advantages = $('#advantages').offset().top;
+  features = $('#features').offset().top - 67;
+  homeBase = $('#home-base').offset().top - 67;
+  advantages = $('#advantages').offset().top - 67;
   stickyNav();
   currentDiv();
 })
