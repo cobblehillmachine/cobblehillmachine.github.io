@@ -11,3 +11,13 @@ function smoothScroll() {
       return false;
   })
 }
+
+
+var $window = $(window),
+  $stickyEl = $('.nav.mobile'),
+  elTop = $stickyEl.offset().top;
+
+$window.scroll(function() {
+  $stickyEl.toggleClass('sticky', $window.scrollTop() > elTop);
+});
+
