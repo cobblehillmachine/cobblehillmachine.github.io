@@ -2,7 +2,7 @@ var offset;
 
 $(window).load(function() {
   smoothScroll();
-  offset = $('.nav.mobile').offset().top - $('.nav.mobile').height();
+  offset = $('.nav.mobile').offset().top;
   stickyNav();
 })
 
