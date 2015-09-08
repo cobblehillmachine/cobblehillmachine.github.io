@@ -19,7 +19,7 @@ function smoothScroll() {
       }, 600);
     } else {
       $('html, body').animate({
-          scrollTop: $( $.attr(this, 'href') ).offset().top + 67
+          scrollTop: $( $.attr(this, 'href') ).offset().top - 67
       }, 600);
     }
     return false;
