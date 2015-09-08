@@ -136,5 +136,7 @@ input[type="submit"]:hover {  background-color: #d63c19;}
   .nav li { padding: 5px 0; display: block;}
   .gray .share span, .wave.share span {  margin-bottom: 20px; display: block;}
   .section.gif img {  width: 100%}
-  input[type="text"], input[type="submit"] {  width: 100%; display:block; max-width: none;}
+  /*input[type="text"], input[type="submit"] {  width: 100%; display:block; max-width: none;}*/
+  input[type="text"] {  width: 75%; font-size: 14px; }
+  input[type="submit"] {  height: 47px; width: 50px; background-size: 18px;}
 }
