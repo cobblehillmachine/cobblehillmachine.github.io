@@ -12,9 +12,10 @@ function smoothScroll() {
   })
 }
 
-var offset = $('.nav.mobile').offset().top
+
 
 $(window).scroll(function() {
-  $('.nav.mobile').toggleClass('sticky', $(window).scrollTop() > offset);
+  $('.nav.mobile').addClass('sticky', $(window).scrollTop() > $('.nav.mobile').offset().top);
+  $('.nav.mobile').removeClass('sticky', $(window).scrollTop() < $('.nav.mobile').offset().top);
 });
 
