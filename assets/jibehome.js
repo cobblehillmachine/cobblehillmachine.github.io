@@ -47,10 +47,13 @@ function stickyNav()  {
 function currentDiv() {
 
   if ($(window).scrollTop() > features && $(window).scrollTop() < homeBase) {
-    console.log('features');
+    $('.nav a').removeClass('active');
+    $('.nav a.features').addClass('active')
   } else if ($(window).scrollTop() > homeBase && $(window).scrollTop() < advantages) {
-    console.log('homebase');
+    $('.nav a').removeClass('active');
+    $('.nav a.homeBase').addClass('active')
   } else if ($(window).scrollTop() > advantages) {
-    console.log('advantages')
+    $('.nav a').removeClass('active');
+    $('.nav a.advantages').addClass('active')
   }
 }
