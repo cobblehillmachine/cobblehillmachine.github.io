@@ -98,6 +98,8 @@ input[type="submit"]:hover {  background-color: #d63c19;}
 }
 
 @media only screen and (max-width: 900px) {
+  body, .icon p {  font-size: 14px;}
+  h1, h2, #home-base.section h2 {  font-size: 26px; line-height: 30px;}
   .logo, .nav, .icon,.icons, .left, .right { display: block; text-align: center; width: 100%; margin: 0 auto; padding: 0;}
   .mid-cont { width: 90%;}
   .section {  padding: 50px 0;}
