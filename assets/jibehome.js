@@ -2,8 +2,13 @@ var offset;
 
 $(window).load(function() {
   smoothScroll();
-  offset = $('.nav.mobile').offset().top + $('.nav.mobile').height();;
+  offset = $('.nav.mobile').offset().top + $('.nav.mobile').height();
+  stickyNav();
 })
+
+$(window).scroll(function() {
+  stickyNav();
+});
 
 function smoothScroll() {
   $('.nav a').on('click', function(e) {
@@ -15,13 +20,11 @@ function smoothScroll() {
   })
 }
 
-
-
-$(window).scroll(function() {
+function stickyNav()  {
   if ($(window).scrollTop() < offset) {
     $('.nav.mobile').removeClass('sticky');
   } else if ($(window).scrollTop() > offset) {
     $('.nav.mobile').addClass('sticky');
   }
-});
+}
 
