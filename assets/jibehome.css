@@ -12,6 +12,8 @@ h2 {  margin-bottom: 20px; font-size: 42px; letter-spacing:0;}
 h3 {  font-size: 22px; letter-spacing:0;}
 h4 {  font-size: 31px;font-weight: 400;letter-spacing:0;}
 
+.nav.mobile { display: none;}
+
 .mid-cont { width: 85%; margin: 0 auto; max-width: 1200px;}
 .section {  display: block; background-color: white; padding: 100px 0;}
 .section.wave { padding: 50px 0;}
@@ -100,6 +102,11 @@ input[type="submit"]:hover {  background-color: #d63c19;}
 @media only screen and (max-width: 900px) {
   body, .icon p {  font-size: 14px;}
   h1, h2, #home-base.section h2 {  font-size: 26px; line-height: 30px;}
+  .nav.desktop {  display: none;}
+  .nav.mobile { display: block; padding: 20px 0 0;}
+  .nav.mobile ul {  text-align: justify; height: 27px; font-size: 18px;}
+  .nav.mobile ul:after {  width: 100%; display: inline-block; content: '';}
+  .nav.mobile li {  display: inline-block;}
   .logo, .nav, .icon,.icons, .left, .right { display: block; text-align: center; width: 100%; margin: 0 auto; padding: 0;}
   .mid-cont { width: 90%;}
   .section {  padding: 50px 0;}
