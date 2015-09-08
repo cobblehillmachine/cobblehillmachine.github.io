@@ -1,6 +1,6 @@
 var offset;
 var features;
-var homebase;
+var homeBase;
 var advantages;
 
 $(window).load(function() {
