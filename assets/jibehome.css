@@ -118,7 +118,8 @@ input[type="submit"]:hover {  background-color: #d63c19;}
   .section.gif .mid-cont .right {background-image: none; height: auto;}
   .section.gif .left {  padding-bottom: 0; padding-top: 0;}
   .mobile-gif, .mobile { display: block;text-align: center;}
-  .mobile-gif { margin: 40px auto;}
+  .mobile-gif { margin: 20px auto;}
+  .section.gif p {  argin: 30px 0 20px 0;}
   .share.wave { position: relative; text-align: center;bottom: auto; background-image: url(../images/blue-background.jpg); background-size:cover; background-position: 50% 50%;}
   .icon { margin: 50px auto;}
   .wave .mid-cont h4 {  display: block; margin-bottom: 20px; }
