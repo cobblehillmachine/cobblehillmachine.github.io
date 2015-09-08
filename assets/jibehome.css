@@ -111,7 +111,7 @@ input[type="submit"]:hover {  background-color: #d63c19;}
   .mid-cont { width: 90%;}
   .section {  padding: 50px 0;}
   /*.nav{ margin-top: 20px;}*/
-  .section.gif {  height: auto; padding: 50px 0 0;}
+  .section.gif {  height: auto; padding: 15px 0 0;}
   .section.gif .mid-cont .right {background-image: none; height: auto;}
   .section.gif .left {  padding-bottom: 0; padding-top: 0;}
   .mobile-gif, .mobile { display: block;text-align: center;}
