@@ -13,10 +13,16 @@ $(window).scroll(function() {
 function smoothScroll() {
   $('.nav a').on('click', function(e) {
     e.preventDefault();
-    $('html, body').animate({
+    if ($(window) > 900) {
+      $('html, body').animate({
           scrollTop: $( $.attr(this, 'href') ).offset().top
       }, 600);
-      return false;
+    } else {
+      $('html, body').animate({
+          scrollTop: $( $.attr(this, 'href') ).offset().top + 67
+      }, 600);
+    }
+    return false;
   })
 }
 
