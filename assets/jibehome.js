@@ -15,7 +15,7 @@ function smoothScroll() {
 
 var $window = $(window);
 var $stickyEl = $('.nav.mobile');
-var elTop = $stickyEl.offset().top;
+var elTop = $('.nav.mobile').offset().top;
 
 $window.scroll(function() {
   $stickyEl.toggleClass('sticky', $window.scrollTop() > elTop);
