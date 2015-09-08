@@ -26,6 +26,7 @@ function smoothScroll() {
           scrollTop: $( $.attr(this, 'href') ).offset().top
       }, 600);
     } else {
+      $(this).addClass('active');
       $('html, body').animate({
           scrollTop: $( $.attr(this, 'href') ).offset().top - 67
       }, 600);
