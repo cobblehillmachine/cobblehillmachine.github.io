@@ -23,8 +23,13 @@ function smoothScroll() {
 function stickyNav()  {
   if ($(window).scrollTop() < offset) {
     $('.nav.mobile').removeClass('sticky');
+    $('body').removeClass('sticky');
   } else if ($(window).scrollTop() > offset) {
     $('.nav.mobile').addClass('sticky');
+     $('body').addClass('sticky');
   }
 }
 
+function currentDiv() {
+
+}

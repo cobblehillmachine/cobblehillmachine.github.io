@@ -106,6 +106,7 @@ input[type="submit"]:hover {  background-color: #d63c19;}
   .logo img { max-width: 150px;}
   header {  padding: 20px 0 0;}
   .nav.mobile { display: block; padding: 20px 0 20px; background: white;z-index: 10;}
+  body.sticky { padding-top: 67px;}
   .nav.mobile.sticky {  position: fixed; top: 0;}
   #features { padding-top: 30px;}
   .nav.mobile ul {  text-align: justify; height: 27px; font-size: 16px;}
