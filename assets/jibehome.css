@@ -35,8 +35,8 @@ li { display: inline-block;}
 
 .left, .right { display: inline-block; width: 49%; vertical-align: top;}
 
-input[type="text"] {  border: 3px solid #cdd0d3; border-radius: 10px; padding: 12px 10px; max-width: 355px; width: 75%; vertical-align: top; margin-right: 5px; font-size: 18px;font-family: 'proxima-nova'; font-weight: 400; font-style: normal ;  appearance: none; -webkit-appearance: none; -moz-appearance: none;}
-input[type="submit"] {  background-color: #e84824; background-image: url(../images/submit-arrow.png);; background-repeat: no-repeat;background-position: 50% 50%; height: 53px; -webkit-appearance: none; appearance: none; -moz-appearance: none; width: 69px; border: 0; border-radius: 10px; background-size: 24px; vertical-align: top; cursor: pointer;appearance: none; -webkit-appearance: none; -moz-appearance: none; transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease;}
+input[type="text"] {  border: 3px solid #cdd0d3; border-radius: 10px; padding: 12px 10px; max-width: 355px; width: 75%; vertical-align: top; margin-right: 5px; font-size: 18px;font-family: 'proxima-nova'; font-weight: 400; font-style: normal ; -webkit-appearance: none; -moz-appearance: none;}
+input[type="submit"] {  background-color: #e84824; background-image: url(../images/submit-arrow.png);; background-repeat: no-repeat;background-position: 50% 50%; height: 53px; -webkit-appearance: none; -moz-appearance: none; width: 69px; border: 0; border-radius: 10px; background-size: 24px; vertical-align: top; cursor: pointer; -webkit-appearance: none; -moz-appearance: none; transition: all 0.2s ease; -webkit-transition: all 0.2s ease; -moz-transition: all 0.2s ease;}
 input[type="submit"]:hover {  background-color: #d63c19;}
 
 #features { padding-top: 50px;}
@@ -121,7 +121,7 @@ input[type="submit"]:hover {  background-color: #d63c19;}
   .section.gif .left {  padding-bottom: 0; padding-top: 0;}
   .mobile-gif, .mobile { display: block;text-align: center;}
   .mobile-gif { margin: 20px auto;}
-  .section.gif p {  argin: 30px 0 20px 0;}
+  .section.gif p {  margin: 30px 0 20px 0;}
   .share.wave { position: relative; text-align: center;bottom: auto; background-image: url(../images/blue-background.jpg); background-size:cover; background-position: 50% 50%;}
   .icon { margin: 50px auto;}
   .wave .mid-cont h4 {  display: block; margin-bottom: 20px; }
